@@ -140,3 +140,7 @@ a.pill-b{display:inline-block;text-decoration:none}
 .pr h3{transition:color .2s}.pr:hover h3{color:var(--ac)}
 .rail i{animation:pu 2.4s ease-in-out infinite}@keyframes pu{0%,100%{box-shadow:0 0 0 6px var(--acs)}50%{box-shadow:0 0 0 13px transparent}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1!important;transform:none!important}}
+
+.live.src{margin-left:22px;background:transparent;color:var(--ac);border:1.5px solid var(--ac);padding:9px 18px}
+.live.src:hover{background:var(--ac);color:var(--on)}
+@media(max-width:600px){.live.src{margin-left:0;margin-top:12px}}
