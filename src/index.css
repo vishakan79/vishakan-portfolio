@@ -144,3 +144,5 @@ a.pill-b{display:inline-block;text-decoration:none}
 .live.src{margin-left:22px;background:transparent;color:var(--ac);border:1.5px solid var(--ac);padding:9px 18px}
 .live.src:hover{background:var(--ac);color:var(--on)}
 @media(max-width:600px){.live.src{margin-left:0;margin-top:12px}}
+@media(max-width:600px){.open{border-radius:18px;line-height:1.5;font-size:12.5px;padding:9px 16px}.open::before{flex:none}}
+.pill-b{white-space:nowrap}@media(max-width:600px){.pill-b{padding:9px 14px;font-size:14px}.nav .wrap{gap:8px}}
